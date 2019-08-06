@@ -29,15 +29,19 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="hPi-Ed-Qv7"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
-                                <color key="textColor" red="1" green="0.83024610509999996" blue="0.25219211429999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="40"/>
+                                <color key="textColor" red="0.7425881028175354" green="0.57743823528289795" blue="0.27835169434547424" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kjW-9k-wgd">
                                 <rect key="frame" x="0.0" y="451" width="375" height="216"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="8bC-Xf-vdC" id="GxG-0v-oSd"/>
+                                    <outlet property="delegate" destination="8bC-Xf-vdC" id="r4u-aL-cmF"/>
+                                </connections>
                             </pickerView>
                         </subviews>
-                        <color key="backgroundColor" red="0.10425203702792836" green="0.37167426714694363" blue="0.47173935174942017" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.18553884591392084" green="0.35762725560330494" blue="0.47173935174942017" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uI4-fm-cOW" secondAttribute="trailing" constant="20" id="1UN-d4-Qyd"/>
                             <constraint firstItem="OUu-qb-i1Q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="2mN-HV-vdz"/>
