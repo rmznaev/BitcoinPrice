@@ -25,7 +25,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uI4-fm-cOW">
-                                <rect key="frame" x="20" y="198" width="335" height="90"/>
+                                <rect key="frame" x="20" y="208" width="335" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="hPi-Ed-Qv7"/>
                                 </constraints>
@@ -33,43 +33,28 @@
                                 <color key="textColor" red="1" green="0.83024610509999996" blue="0.25219211429999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KxC-3L-JJh">
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kjW-9k-wgd">
                                 <rect key="frame" x="0.0" y="451" width="375" height="216"/>
-                                <subviews>
-                                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kjW-9k-wgd">
-                                        <rect key="frame" x="0.0" y="0.0" width="336" height="216"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="216" id="Ba7-cp-x53"/>
-                                        </constraints>
-                                    </pickerView>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="kjW-9k-wgd" secondAttribute="bottom" id="1mF-Jp-lfi"/>
-                                    <constraint firstAttribute="trailing" secondItem="kjW-9k-wgd" secondAttribute="trailing" id="2FE-NX-4h0"/>
-                                    <constraint firstItem="kjW-9k-wgd" firstAttribute="leading" secondItem="KxC-3L-JJh" secondAttribute="leading" id="6Qf-5C-8y3"/>
-                                    <constraint firstItem="kjW-9k-wgd" firstAttribute="top" secondItem="KxC-3L-JJh" secondAttribute="top" id="BUh-cU-vvO"/>
-                                </constraints>
-                            </view>
+                            </pickerView>
                         </subviews>
                         <color key="backgroundColor" red="0.10425203702792836" green="0.37167426714694363" blue="0.47173935174942017" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uI4-fm-cOW" secondAttribute="trailing" constant="20" id="1UN-d4-Qyd"/>
                             <constraint firstItem="OUu-qb-i1Q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="2mN-HV-vdz"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OUu-qb-i1Q" secondAttribute="trailing" constant="68" id="3Gb-1R-SfQ"/>
-                            <constraint firstItem="uI4-fm-cOW" firstAttribute="top" secondItem="OUu-qb-i1Q" secondAttribute="bottom" constant="30" id="Efo-DC-Raa"/>
-                            <constraint firstItem="KxC-3L-JJh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Ij5-Fb-r5d"/>
-                            <constraint firstAttribute="trailing" secondItem="KxC-3L-JJh" secondAttribute="trailing" id="KA0-Wb-OjP"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="KxC-3L-JJh" secondAttribute="bottom" id="enB-4K-cVj"/>
+                            <constraint firstItem="kjW-9k-wgd" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="7qf-Vt-oM5"/>
+                            <constraint firstItem="uI4-fm-cOW" firstAttribute="top" secondItem="OUu-qb-i1Q" secondAttribute="bottom" constant="40" id="Efo-DC-Raa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kjW-9k-wgd" secondAttribute="trailing" id="UKs-MS-2tj"/>
                             <constraint firstItem="uI4-fm-cOW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="giG-yn-1dT"/>
                             <constraint firstItem="OUu-qb-i1Q" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="n7q-Nu-8yU"/>
+                            <constraint firstItem="kjW-9k-wgd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="uUY-xK-qVN"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.875" y="136.26760563380282"/>
+            <point key="canvasLocation" x="136.80000000000001" y="135.38230884557723"/>
         </scene>
     </scenes>
     <resources>
