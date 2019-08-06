@@ -2,4 +2,4 @@
 
 
 
-![](Bitcoin_App_View.png)
+![](BitcoinPrice_App_View.png)
