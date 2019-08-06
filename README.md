@@ -2,4 +2,4 @@
 
 
 
-![](Bitcoin_App_View.jpeg)
+![](Bitcoin_App_View.png)
